@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
 }
 
@@ -34,7 +34,7 @@ form {
 }
 
 .title {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -126,18 +126,7 @@ form {
   font-size: 48px;
 }
 
-.alert-danger {
-  background-color: #f8d7da;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  border-radius: 0.5rem;
-  color: #721c24;
-  border: 1px solid #cc8e94;
-}
-
-@media screen and (max-width: 700px) {
-  .mainCard {
-    width: 80vw;
-  }
+.date {
+  width: 100%;
+  padding: 15px;
 }
